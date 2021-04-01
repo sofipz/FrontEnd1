@@ -41,6 +41,9 @@
     margin-left: 100pt;
     text-align:left;
 }
+.dl{
+    margin-left: 130pt;
+}
 
 /*uso list-style-position para que las viñetas se muevan junto con en texto*/
 .listas{
