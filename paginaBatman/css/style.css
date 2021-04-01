@@ -1,0 +1,66 @@
+.body{
+    font-family: calibri, Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: #ddd;
+    text-align:center;
+}
+
+.h1{
+    background-color: #BFBFBF;
+    color: #1F497D;
+    font-family: Cambria, Times, serif;
+    font-size: 20pt;
+    /*height para hacer más alto el h1*/
+    height: 40pt;
+    letter-spacing: 7pt;
+    /*line-height para alinear el texto verticalmente*/
+    line-height: 40pt;
+    /*margin-top en este caso para separar la imagen de batmabn del h1*/
+    margin-top: 20pt;
+    text-align: center;
+    text-transform:uppercase;
+    word-spacing: 26pt;
+}
+
+.h2{
+    background-color: #BFBFBF;
+    color: #632423;
+    font-family: Cambria, times, serif;
+    font-size:13pt;
+    letter-spacing: 5pt;
+    margin-left: 125pt;
+    margin-right: 125pt;
+    text-align:left;
+    text-transform:uppercase;
+    word-spacing: 11pt;
+}
+
+.ul, dl{
+    margin-bottom: 30pt;
+    margin-left: 100pt;
+    text-align:left;
+}
+
+/*uso list-style-position para que las viñetas se muevan junto con en texto*/
+.listas{
+    list-style-position: inside;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.footer{
+    background-color: #1F497D;
+    color: #ddd;
+    font-size: 17pt;
+    text-align: center;
+}
+
+.imagen{
+    height: 20px;
+    margin-top: 4pt;
+    text-align: center;
+    width: 20px;
+}
