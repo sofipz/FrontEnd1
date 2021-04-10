@@ -1,0 +1,126 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h4{
+    background-color: #1CD1B0;
+    margin: 0pt;
+    padding: 2pt;
+}
+h2{
+    background-color: #00669F;
+    margin: 0pt;
+    color: white;
+    font-weight: normal;
+}
+.article{
+    width: 400px;
+    height: 600px;
+    position: relative;
+    margin: 30px 300px 30px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.fondo{
+    width: 100%;
+    height: 40%;
+    border-radius: 15px 15px 0px 0px;
+    position: absolute;
+}
+
+.batman{
+    background-image: url('../img/bg-batman.jpg');
+    background-size: cover;
+}
+.m_maravilla{
+    background-image: url('../img/bg-wonderw.jpg');
+    background-size: cover;
+}
+.superman{
+    background-image: url('../img/bg-superman.jpg');
+    background-size: cover;
+}
+
+}
+.contenedor_carnet{
+    width: 30%;
+    height: 20%;
+    border-radius: 50%;
+    position:absolute;
+    margin: 45% 35% 55%;
+    
+}
+.carnet_batman{
+    background-image: url('../img/batman.jpg');
+    background-size: cover;
+    object-position: center;
+}
+.carnet_maravilla{
+    background-image: url('../img/wonderw.jpg');
+    background-size:auto;
+    border-radius: 50%;
+}
+.carnet_superman{
+    background-image: url('../img/superman.jpg');
+    background-size:auto;
+    border-radius: 50%;
+}
+
+.texto{
+    position: absolute;
+    bottom: 15%;
+    width: 80%;
+    right: 10%;
+    left: 10%;
+}
+.h3_batman{
+    margin-left: 38%;
+    margin-right: 38%;
+}
+.h3_maravilla{
+    margin-left: 24%;
+    margin-right: 23%;
+}
+.h3_superman{
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+p{
+    text-align: justify;
+}
+
+.boton{
+    text-align: center;
+    position: absolute;
+    bottom: 5%;
+    background-color: #00669F;
+    padding-top: 15pt;
+    color: white;
+    border-radius: 7px;
+    width: 130pt;
+    height: 30pt;
+    margin-left: 80pt;
+    margin-right: 80pt;
+}
+footer{
+    background-color: #00669F;
+    height: 60px;
+    width: 1000px;
+}
+.derechos{
+    color: white;
+    font-family: serif;
+    font-size: 15px;
+    width: 400px;
+    position: absolute;
+    margin: 20px 360px;
+    
+}
+.github{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 900px;
+}
