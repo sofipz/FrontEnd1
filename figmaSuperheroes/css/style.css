@@ -13,6 +13,18 @@ h2{
     color: white;
     font-weight: normal;
 }
+.plus{
+    box-sizing: border-box;
+    position: fixed;
+    top: 300px;
+    left: 950px;
+    width: 50px;
+    height: 50px;
+    background-color: #00669F;
+    color: white;
+    border-radius: 50%;
+    padding: 16px 20px 17px 15px;
+}
 .article{
     width: 400px;
     height: 600px;
@@ -21,57 +33,59 @@ h2{
     border-radius: 15px 15px 0px 0px;
 }
 
-.fondo{
+.fondo_imagen{
     width: 100%;
     height: 40%;
     border-radius: 15px 15px 0px 0px;
     position: absolute;
+    background-size: cover;
 }
 
-.batman{
+.fondo_batman{
     background-image: url('../img/bg-batman.jpg');
-    background-size: cover;
-}
-.m_maravilla{
-    background-image: url('../img/bg-wonderw.jpg');
-    background-size: cover;
-}
-.superman{
-    background-image: url('../img/bg-superman.jpg');
-    background-size: cover;
-}
-
-}
-.contenedor_carnet{
-    width: 30%;
-    height: 20%;
-    border-radius: 50%;
-    position:absolute;
-    margin: 45% 35% 55%;
     
 }
-.carnet_batman{
-    background-image: url('../img/batman.jpg');
-    background-size: cover;
-    object-position: center;
+.fondo_maravilla{
+    background-image: url('../img/bg-wonderw.jpg');
 }
-.carnet_maravilla{
-    background-image: url('../img/wonderw.jpg');
-    background-size:auto;
-    border-radius: 50%;
-}
-.carnet_superman{
-    background-image: url('../img/superman.jpg');
-    background-size:auto;
-    border-radius: 50%;
+.fondo_superman{
+    background-image: url('../img/bg-superman.jpg');
 }
 
+.perfil_imagen{
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 120px; 
+}
+.perfil_batman{
+    background-image: url('../img/batman.jpg');
+}
+.perfil_maravilla{
+    background-image: url('../img/wonderw.jpg');
+
+}
+.perfil_superman{
+    background-image: url('../img/superman.jpg');
+}
+
+.corazon{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    z-index: 5;
+    color: #CC2424;
+
+}
 .texto{
     position: absolute;
-    bottom: 15%;
     width: 80%;
-    right: 10%;
-    left: 10%;
+    left: 42px;
+    top: 290px;
 }
 .h3_batman{
     margin-left: 38%;
