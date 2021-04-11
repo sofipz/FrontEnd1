@@ -1,0 +1,66 @@
+h4{
+    background-color: #1CD1B0;
+    margin: 0pt;
+    padding: 2pt;
+}
+h2{
+    background-color: #00669F;
+    color: white;
+    font-weight: normal;
+    margin: 0pt;
+}
+
+h1{
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 30pt;
+    font-style: normal;
+    left: 385px;
+    position: absolute;
+    top: 100px;
+}
+
+div{
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 300px;
+    position: absolute;
+    top: 250px;
+    width: 300px;
+}
+.aquaman{
+    background-image: url('../img/aquaman.jpg');
+    left: 200px;
+}
+
+.flash{
+    background-image: url('../img/flash.jpg');
+    left: 400px;
+}
+
+.linterna_verde{
+    background-image:  url('../img/linternaverde.jpg');
+    left: 600px;
+}
+footer{
+    background-color: #00669F;
+    height: 60px;
+    position: absolute;
+    top: 500pt;
+    width: 100%;
+}
+.derechos{
+    color: white;
+    font-family: serif;
+    font-size: 15px;
+    margin: 20px 360px;
+    position: absolute;
+    width: 400px;
+}
+.github{
+    height: auto;
+    margin-left: 90%;
+    margin-top: 19px;
+    position: absolute;
+    width: 80px;
+}
