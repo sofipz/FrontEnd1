@@ -5,13 +5,19 @@ body{
 h4{
     background-color: #1CD1B0;
     margin: 0pt;
-    padding: 2pt;
+    padding: 4pt;
+    width: 100%;
 }
 h2{
     background-color: #00669F;
+    box-sizing: border-box;
     color: white;
+    font-size: 20pt;
     font-weight: normal;
+    height: 60pt;
     margin: 0pt;
+    padding: 20pt 4pt;
+    width: 100%;
 }
 
 .plus{
@@ -122,10 +128,48 @@ p{
     text-align: center;
     width: 130pt;
 }
+
+/* Acá empieza el CSS específico de la página 2 */
+h1{
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 30pt;
+    font-style: normal;
+    left: 385px;
+    position: absolute;
+    top: 100px;
+}
+.div_proximamente{
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 300px;
+    position: absolute;
+    top: 250px;
+    width: 300px;
+}
+.aquaman{
+    background-image: url('../img/aquaman.jpg');
+    left: 200px;
+}
+
+.flash{
+    background-image: url('../img/flash.jpg');
+    left: 400px;
+}
+
+.linterna_verde{
+    background-image:  url('../img/linternaverde.jpg');
+    left: 600px;
+}
+/* Acá termina el CSS específico de la página 2 */
+
 footer{
     background-color: #00669F;
     height: 60px;
     width: 100%;
+    position: fixed;
+    bottom: 0%;
+    z-index: 6;
 }
 .derechos{
     color: white;
