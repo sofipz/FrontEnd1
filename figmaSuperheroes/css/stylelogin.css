@@ -1,0 +1,105 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h4{
+    background-color: #1CD1B0;
+    margin: 0pt;
+    padding: 4pt;
+    width: 100%;
+}
+h2{
+    background-color: #00669F;
+    box-sizing: border-box;
+    color: white;
+    font-size: 20pt;
+    font-weight: normal;
+    height: 60pt;
+    margin: 0pt;
+    padding: 20pt 4pt;
+    width: 100%;
+}
+
+div{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 150px;
+    left: 380px;
+}
+.registro{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 135px;
+    left: 380px;
+}
+
+h1{
+    font-size: 35pt;
+}
+
+input, select{
+    width: 330px;
+    height: 25px;
+}
+
+button{
+    background-color: #1CD1B0;
+    font-weight: bolder;
+    border-color: transparent;
+    width:330px;
+    height: 30px;
+    border-radius: 23.01px ;
+}
+
+textarea{
+    width: 330px;
+    height: 95px;
+}
+.resetear{
+    width: 165px;
+    background-color: #888888;
+    color: white;
+    margin-right: 6px;
+
+}
+
+.entrar{
+    width: 165px;
+    margin-left: 6px;
+}
+
+p{
+    font-size: 8pt;
+    text-align: center;
+}
+
+a{
+    color: #00669F;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #00669F;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    z-index: 6;
+}
+.derechos{
+    color: white;
+    font-family: serif;
+    font-size: 15px;
+    margin: 20px 360px;
+    position: absolute;
+    width: 400px;
+}
+.github{
+    height: auto;
+    margin-left: 90%;
+    margin-top: 19px;
+    position: absolute;
+    width: 80px;
+}
