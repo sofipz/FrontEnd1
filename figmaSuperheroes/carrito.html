@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming soon...</title>
+    <title>Carrito de compras</title>
     <link href = "css\stylecarrito.css" rel = "stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/solid.css" integrity="sha384-LA8Ug4T/nhVkyhrSmSirsoAo9iDrBk8E7U80aSPeD+w3vO8PzOJIS6agGcbIwwX0" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/fontawesome.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
@@ -26,22 +26,49 @@
         </h4>
     </header>
     <div>
-        <h1>Login</h1>
+        <h1>¡Añadí tu súper!</h1>
         <p>Agregá tu personaje favorito completando las opciones</p>
         <form action="" method="POST">
-            <p>
+            <span>
                 <label for="nombre">*Nombre</label>
-            </p>
-            <p>
-                <input type="text" name="nombre" id="nombre">
-            </p>
-            <p>
+            </span>
+            <span>
                 <label for="especie">*Especie</label>
-            </p>
-                <select name="especie" id="especie">
+            </span>
+            <br>
+            <span>
+                <input class="fila1" type="text" name="nombre" id="nombre">
+            </span>
+            <span>
+                <select class="fila1" name="especie" id="especie">
                     <option value="unknown">Unknown</option>
                 </select>
-            </p>
+            </span>
+            <br>
+            <span>
+                <label for="fecha">Fecha</label>
+            </span>
+            <span>
+                <label for="imagen">Agregar foto</label>
+            </span>
+            <br>
+            <span>
+                <input type="date" name="fecha" id="fecha">
+            </span>
+            <span>
+                <input class="inputFile" type="file" name="imagen" id="imagen" accept=".jpg, .png" multiple>
+            </span>
+            <br>
+            <span>
+                <textarea name="descripcion" id="descripcion" cols="30" rows="10">Descripción</textarea>
+            </span>
+            <span class="spanPoderes">
+                <label class="checkbox" for="poderes">Poderes</label>
+                <input class="checkbox" type="checkbox" name="poderes" id="poderes" value="Volar">
+                <input class="checkbox" type="checkbox" name="poderes" id="poderes" value="Superinteligencia">
+                <input class="checkbox" type="checkbox" name="poderes" id="poderes" value="Vista de rayos láser">
+                <input class="checkbox" type="checkbox" name="poderes" id="poderes" value="Billetera gorda">
+            </span>
         </form>
     </div>
     <footer>

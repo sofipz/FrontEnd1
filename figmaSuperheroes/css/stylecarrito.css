@@ -42,13 +42,43 @@ li{
 }
 
 div{
-    width: fit-content;
-    height: fit-content;
+    width: 700px;
+    height: 700px;
     position: absolute;
     top: 150px;
     left: 380px;
+    background-color: #00669F;
+    color: white;
+    border-radius: 49.09px;
 }
 
+.fila1{
+    display: inline;
+}
+
+.checkbox{
+    display: block;
+}
+
+.spanPoderes{
+    position: absolute;
+    bottom: 50px;
+}
+
+label{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+input{
+    height: 40px;
+    width: 200px;
+    border-radius: 13.34px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.inputFile{
+    margin-left: -20px;
+}
 
 
 footer{
